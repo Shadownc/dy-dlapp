@@ -1,0 +1,20 @@
+{
+  "name": "dy-save-miniprogram",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev:mp-weixin": "uni -p mp-weixin",
+    "build:mp-weixin": "uni build -p mp-weixin"
+  },
+  "dependencies": {
+    "@dcloudio/uni-app": "3.0.0-5030420261029002",
+    "@dcloudio/uni-components": "3.0.0-5030420261029002",
+    "@dcloudio/uni-mp-weixin": "3.0.0-5030420261029002",
+    "vue": "3.4.21"
+  },
+  "devDependencies": {
+    "@dcloudio/vite-plugin-uni": "3.0.0-5030420261029002",
+    "vite": "5.2.8"
+  }
+}

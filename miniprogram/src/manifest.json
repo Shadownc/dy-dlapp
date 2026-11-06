@@ -1,0 +1,8 @@
+{
+  "name": "保存助手",
+  "appid": "__UNI__DY_SAVE",
+  "description": "保存本人创作或获授权的作品",
+  "versionName": "0.1.0",
+  "versionCode": "1",
+  "mp-weixin": { "appid": "", "setting": { "urlCheck": true }, "usingComponents": true }
+}

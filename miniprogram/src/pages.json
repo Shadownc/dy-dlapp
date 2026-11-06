@@ -1,0 +1,18 @@
+{
+  "pages": [
+    { "path": "pages/index/index", "style": { "navigationBarTitleText": "保存助手", "navigationBarBackgroundColor": "#f6f8f7", "navigationBarTextStyle": "black" } },
+    { "path": "pages/result/result", "style": { "navigationBarTitleText": "解析结果", "navigationBarBackgroundColor": "#f6f8f7", "navigationBarTextStyle": "black" } },
+    { "path": "pages/history/history", "style": { "navigationBarTitleText": "最近记录", "navigationBarBackgroundColor": "#f6f8f7", "navigationBarTextStyle": "black" } },
+    { "path": "pages/profile/profile", "style": { "navigationBarTitleText": "我的", "navigationBarBackgroundColor": "#f6f8f7", "navigationBarTextStyle": "black" } },
+    { "path": "pages/privacy/privacy", "style": { "navigationBarTitleText": "隐私说明", "navigationBarBackgroundColor": "#f6f8f7", "navigationBarTextStyle": "black" } }
+  ],
+  "tabBar": {
+    "color": "#8a9992", "selectedColor": "#14836d", "backgroundColor": "#fff", "borderStyle": "white",
+    "list": [
+      { "pagePath": "pages/index/index", "text": "解析" },
+      { "pagePath": "pages/history/history", "text": "记录" },
+      { "pagePath": "pages/profile/profile", "text": "我的" }
+    ]
+  },
+  "globalStyle": { "backgroundColor": "#f6f8f7", "navigationBarTextStyle": "black" }
+}

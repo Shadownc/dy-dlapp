@@ -1,0 +1,12 @@
+services:
+  app:
+    build: .
+    restart: unless-stopped
+    env_file: server/.env
+    ports:
+      - "127.0.0.1:8000:8000"
+    environment:
+      HOST: 0.0.0.0
+      DATA_DIR: /app/server/data
+    volumes:
+      - ./server/data:/app/server/data
